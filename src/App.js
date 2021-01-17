@@ -1,4 +1,5 @@
-const Pet = ({ name, animal, breed }) => { // example of destructuring
+const Pet = ({ name, animal, breed }) => {
+  // example of destructuring
   return React.createElement("div", {}, [
     React.createElement("h1", {}, name),
     React.createElement("h2", {}, animal),
