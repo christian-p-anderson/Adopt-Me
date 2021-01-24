@@ -5,6 +5,7 @@ const SearchParams = () => {
 
   return (
     <div className="search-params">
+      <h1>{location}</h1>
       <form>
         <label htmlFor="location">
           Location
